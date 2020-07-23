@@ -1,14 +1,39 @@
 {
-    "name": "lojazone/melhorenvio-api-sdk-php",
-    "description": "Api integration with Melhor Envio",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Rafael Pacífico",
-            "email": "rafael@webstylus.com.br"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "lojazone/melhorenvio-api-sdk-php",
+  "description": "Api integration with Melhor Envio",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rafael Pacífico",
+      "email": "rafael@webstylus.com.br"
+    },
+    {
+      "name": "Johnny da Silva Arruda",
+      "email": "johnnsilva11@hotmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*",
+    "symfony/var-dumper": "^5.2@dev"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Lojazone\\MelhorEnvio\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lojazone\\MelhorEnvio\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
 }
