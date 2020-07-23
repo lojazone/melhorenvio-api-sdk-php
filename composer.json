@@ -1,0 +1,14 @@
+{
+    "name": "lojazone/melhorenvio-api-sdk-php",
+    "description": "Api integration with Melhor Envio",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Pacífico",
+            "email": "rafael@webstylus.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
