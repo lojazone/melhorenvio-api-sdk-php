@@ -1,13 +1,24 @@
 <?php
 
-
 namespace Lojazone\MelhorEnvio;
 
+use Lojazone\MelhorEnvio\Models\Carrier;
+use Lojazone\MelhorEnvio\Models\Shipment;
 
-class MelhorEnvio
+class MelhorEnvio extends Client
 {
-    public function __construct()
+    public function __construct($token)
     {
-        dump('Olá mundo!');
+        parent::__construct($token);
+    }
+
+    public function Carrier(): Carrier
+    {
+        return new Carrier($this);
+    }
+
+    public function Shipment(): Shipment
+    {
+        return new Shipment($this);
     }
 }
