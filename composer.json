@@ -13,7 +13,6 @@
       "email": "johnnsilva11@hotmail.com"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
     "guzzlehttp/guzzle": "^7.0",
     "ext-json": "*",
